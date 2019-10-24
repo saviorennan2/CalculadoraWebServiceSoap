@@ -16,6 +16,8 @@ public class Main {
 		} catch (RemoteException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+
+			// Generate function add, sub
 		}
 		
 	}
