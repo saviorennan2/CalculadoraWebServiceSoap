@@ -5,6 +5,7 @@ import java.rmi.RemoteException;
 import org.calculadoracompany.webservice.CalculadoraWebService;
 import org.calculadoracompany.webservice.CalculadoraWebServiceProxy;
 
+//Codigozao da porra
 public class Main {
 	public static void main(String[] args) {
 		CalculadoraWebService calculadora= new CalculadoraWebServiceProxy();
@@ -15,6 +16,8 @@ public class Main {
 		} catch (RemoteException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+
+			// Generate function add, sub
 		}
 		
 	}
